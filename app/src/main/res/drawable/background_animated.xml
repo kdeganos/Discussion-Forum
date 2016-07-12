@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <animation-list android:id="@+id/selected" android:oneshot="false">
+    <animation-list android:id="@+id/selected" xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
         <item android:drawable="@drawable/frame_0" android:duration="50" />
         <item android:drawable="@drawable/frame_1" android:duration="50" />
         <item android:drawable="@drawable/frame_2" android:duration="50" />
@@ -16,4 +14,3 @@
         <item android:drawable="@drawable/frame_12" android:duration="50" />
 
     </animation-list>
-</selector>

@@ -1,6 +1,8 @@
 package com.epicodus.discussionforum.ui;
 
 import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.StateListDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -45,9 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         mBackground.setBackgroundResource(R.drawable.background_animated);
-        AnimationDrawable frameAnimation = (AnimationDrawable) mBackground.getBackground();
-
-        frameAnimation.start();
+        StateListDrawable frameAnimation = (StateListDrawable) mBackground.getBackground();
+        Drawable current = frameAnimation.getCurrent();
+        AnimationDrawable bgAnimation = (AnimationDrawable) current;
+        bgAnimation.start();
 
 
     }
