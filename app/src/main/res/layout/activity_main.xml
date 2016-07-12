@@ -16,7 +16,7 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recyclerView"
+        android:id="@+id/postsRecyclerView"
         android:layout_marginLeft="100dp"
 
         />
@@ -30,7 +30,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="226dp"
-        >
+        android:id="@+id/postLinearLayout">
 
     <Button
         android:id="@+id/newCategory"
@@ -39,7 +39,7 @@
         android:text="Add a Category"
         android:textSize="10sp"
         android:minHeight="40dip"
-        android:minWidth="40dip"/>
+        />
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
@@ -48,4 +48,21 @@
 
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Categories"
+        android:id="@+id/categoriesTextView"
+        android:maxWidth="40dip"
+        android:shadowColor="#000000"
+        android:shadowRadius="9.2"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/postLinearLayout"
+        android:layout_alignEnd="@+id/postLinearLayout" />
+
 </RelativeLayout>
