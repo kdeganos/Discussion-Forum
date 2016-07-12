@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "316588542195",
+    "firebase_url": "https://myrestaurants-85fd5.firebaseio.com",
+    "project_id": "myrestaurants-85fd5",
+    "storage_bucket": "myrestaurants-85fd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316588542195:android:dff6c1b29d00d12f",
+        "android_client_info": {
+          "package_name": "com.epicodus.myrestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316588542195-mebkhs9g0mbqisg0dj87tprs7n7553ji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.myrestaurants",
+            "certificate_hash": "7CF39DA6A80E1474CC4BDFE3942AEA7F63BC9774"
+          }
+        },
+        {
+          "client_id": "316588542195-bv8o3prll50d1g4pt28h2scj13d09sv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCix2JACmVckuFMzvukqY7T-bxvkr0MUeI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316588542195:android:63ca200269631349",
+        "android_client_info": {
+          "package_name": "com.epicodus.discussionforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316588542195-49ollh7u2lmnip33lmm43ia041iidkd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.discussionforum",
+            "certificate_hash": "7CF39DA6A80E1474CC4BDFE3942AEA7F63BC9774"
+          }
+        },
+        {
+          "client_id": "316588542195-bv8o3prll50d1g4pt28h2scj13d09sv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCix2JACmVckuFMzvukqY7T-bxvkr0MUeI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316588542195-bv8o3prll50d1g4pt28h2scj13d09sv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
